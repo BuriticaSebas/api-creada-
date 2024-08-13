@@ -6,23 +6,32 @@ const port = process.env.PORT || 3000;
 
 const students = [
     {
+        personajesDoblados:{
+        rickI: "Justin Roiland",
+        mortyI: "Justin Roiland",
+        rickE: "Juan Guzman",
+        mortyE: "Eder la Barrera",
+        },
 
-        id: 1,
-        name: "John",
-        age: 20
+        temporadas: {
+            1: "2015",
+            2: "2015",
+            3: "2016",
+            4: "2016",
+            5: "2017",
+            6: "2017",
+            7: "2018",
+            8: "2018",
+            9: "2019",
+            10: "2019",
+        },
+    
     },
-    {
-        id: 2,
-        name: "Jane",
-        age: 21
-    },
-    {
-        id: 3,
-        name: "Joe",
-        age: 22
-    }
-
 ];
+
+
+
+
 
 app.get("/", (req, res) => {    
     res.send('Node JS api');
@@ -48,3 +57,6 @@ app.get("/api/students/:id", (req, res) => {
 app.listen(port, () => {
   console.log(`port runing in http://localhost:${port}`);
 });
+
+
+
