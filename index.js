@@ -6,16 +6,15 @@ const port = process.env.PORT || 3000;
 const cors = require('cors');
 app.use(cors());
 
-
 const sebastian = {
-    personajesDoblados: {
+    personajesDoblados: [{
         rickI: "Justin Roiland",
         mortyI: "Justin Roiland",
         rickE: "Juan Guzman",
         mortyE: "Eder la Barrera",
         img: "https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg"
-    },
-    temporadas: {
+    }],
+    temporadas: [{
         1: { 
             episodios: 11,
             primeraE: "December 2, 2013",
@@ -51,7 +50,7 @@ const sebastian = {
             primeraE: "October 15, 2023",
             ultimaE: "December 17, 2023",
         }
-    }
+    }]
 };
 
 
