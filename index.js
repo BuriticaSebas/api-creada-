@@ -16,6 +16,9 @@ const sebastian = [
             img: "https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg"
         },
 
+        
+    },
+    {
         temporadas: {
             1: { 
                 episodios: 11,
@@ -53,8 +56,9 @@ const sebastian = [
                 ultimaE: "17 de Diciembre de 2023",
             }
         },
-    },
+    }
 ];
+
 
 app.get("/", (req, res) => {    
     res.send('Node JS api');
