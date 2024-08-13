@@ -7,52 +7,62 @@ const cors = require('cors');
 app.use(cors());
 
 const sebastian = {
-    personajesDoblados: [{
-        rickI: "Justin Roiland",
-        mortyI: "Justin Roiland",
-        rickE: "Juan Guzman",
-        mortyE: "Eder la Barrera",
-        img: "https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg"
-    }],
-    temporadas: [{
-        1: { 
+    personajesDoblados: {
+        rick: {
+            ingles: "Justin Roiland",
+            espanol: "Juan Guzman"
+        },
+        morty: {
+            ingles: "Justin Roiland",
+            espanol: "Eder la Barrera"
+        },
+        imagen: "https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg"
+    },
+    temporadas: [
+        {
+            numero: 1,
             episodios: 11,
-            primeraE: "December 2, 2013",
-            ultimaE: "April 14, 2014",
+            primeraEmision: "December 2, 2013",
+            ultimaEmision: "April 14, 2014"
         },
-        2: {
+        {
+            numero: 2,
             episodios: 10,
-            primeraE: "July 26, 2015",
-            ultimaE: "April 1, 2017",
+            primeraEmision: "July 26, 2015",
+            ultimaEmision: "April 1, 2017"
         },
-        3: {
+        {
+            numero: 3,
             episodios: 10,
-            primeraE: "April 1, 2017",
-            ultimaE: "October 1, 2017",
+            primeraEmision: "April 1, 2017",
+            ultimaEmision: "October 1, 2017"
         },
-        4: {
+        {
+            numero: 4,
             episodios: 10,
-            primeraE: "November 10, 2019",
-            ultimaE: "October 31, 2020",
+            primeraEmision: "November 10, 2019",
+            ultimaEmision: "October 31, 2020"
         },
-        5: {
+        {
+            numero: 5,
             episodios: 10,
-            primeraE: "June 20, 2021",
-            ultimaE: "September 5, 2021",
+            primeraEmision: "June 20, 2021",
+            ultimaEmision: "September 5, 2021"
         },
-        6: {
+        {
+            numero: 6,
             episodios: 10,
-            primeraE: "September 4, 2022",
-            ultimaE: "December 11, 2022",
+            primeraEmision: "September 4, 2022",
+            ultimaEmision: "December 11, 2022"
         },
-        7: {
+        {
+            numero: 7,
             episodios: 10,
-            primeraE: "October 15, 2023",
-            ultimaE: "December 17, 2023",
+            primeraEmision: "October 15, 2023",
+            ultimaEmision: "December 17, 2023"
         }
-    }]
+    ]
 };
-
 
 
 app.get("/", (req, res) => {    
