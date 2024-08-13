@@ -14,16 +14,47 @@ const students = [
         },
 
         temporadas: {
-            1: "2015",
-            2: "2015",
-            3: "2016",
-            4: "2016",
-            5: "2017",
-            6: "2017",
-            7: "2018",
-            8: "2018",
-            9: "2019",
-            10: "2019",
+            1:{ 
+                episodios:11,
+                primeraE:"2 de Diciembre de 2013",
+                ultimaE:"14 de Abri de 2014",
+            },
+
+            2: {
+                episodios:10,
+                primeraE:"26 de julio de 2015",
+                ultimaE:"1 de Abri de 2017",},
+
+            3: {
+                episodios:10,
+                primeraE:"1 de Abril de 2017",
+                ultimaE:"1 de octubre de 2017",
+            },
+
+            4: {
+                episodios:10,
+                primeraE:"10 de Noviembre de 2019",
+                ultimaE:"31 de octubre de 2020",
+            },
+
+            5: {
+                episodios:10,
+                primeraE:"20 de Junio de 2021",
+                ultimaE:"5 de septiembre de 2021",
+            },
+
+            6: {
+                episodios:10,
+                primeraE:"4 de Septiembre de 2022",
+                ultimaE:"11 de Diciembre de 2022",
+            },
+
+            7: {
+                episodios:10,
+                primeraE:"15 de Octubre de 2023",
+                ultimaE:"17 de Diciembre de 2023",
+            }
+
         },
     
     },
