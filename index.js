@@ -13,7 +13,9 @@ const sebastian = [
             mortyI: "Justin Roiland",
             rickE: "Juan Guzman",
             mortyE: "Eder la Barrera",
+            img: "https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg"
         },
+
         temporadas: {
             1: { 
                 episodios: 11,
