@@ -20,6 +20,7 @@ const sebastian = {
     },
     temporadas: [
         {
+            acordeon:"One",
             numero: 1,
             episodios: 11,
             primeraEmision: "December 2, 2013",
@@ -29,37 +30,43 @@ const sebastian = {
             numero: 2,
             episodios: 10,
             primeraEmision: "July 26, 2015",
-            ultimaEmision: "April 1, 2017"
+            ultimaEmision: "April 1, 2017",
+            acordeon:"Two",
         },
         {
             numero: 3,
             episodios: 10,
             primeraEmision: "April 1, 2017",
-            ultimaEmision: "October 1, 2017"
+            ultimaEmision: "October 1, 2017",
+            acordeon:"Three"
         },
         {
             numero: 4,
             episodios: 10,
             primeraEmision: "November 10, 2019",
-            ultimaEmision: "October 31, 2020"
+            ultimaEmision: "October 31, 2020",
+            acordeon:"Four"
         },
         {
             numero: 5,
             episodios: 10,
             primeraEmision: "June 20, 2021",
-            ultimaEmision: "September 5, 2021"
+            ultimaEmision: "September 5, 2021",
+            acordeon:"Five"
         },
         {
             numero: 6,
             episodios: 10,
             primeraEmision: "September 4, 2022",
-            ultimaEmision: "December 11, 2022"
+            ultimaEmision: "December 11, 2022",
+            acordeon:"Six"
         },
         {
             numero: 7,
             episodios: 10,
             primeraEmision: "October 15, 2023",
-            ultimaEmision: "December 17, 2023"
+            ultimaEmision: "December 17, 2023",
+            acordeon:"Seven"
         }
     ],
         "premios": [
