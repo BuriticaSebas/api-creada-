@@ -70,7 +70,8 @@ const sebastian = {
         }
     ],
     premios: [
-      {
+      {     
+          active: "active",
           año: 2015,
           premiacion: "BTVA Voice Acting Awards",
           categoria: "Best Male Lead Vocal Performance in a Television Series - Comedy/Musical",
@@ -78,7 +79,8 @@ const sebastian = {
           resultado: "Ganador",
           temporada: 1
       },
-      {
+      { 
+          active: "",
           año: 2015,
           premiacion: "IGN Awards",
           categoria: "Best Animated Series",
@@ -87,7 +89,8 @@ const sebastian = {
           referencia: 9,
           temporada: 2
       },
-      {
+      {   
+          active: "",
           año: 2015,
           premiacion: "IGN People's Choice Award",
           categoria: "Best Animated Series",
@@ -97,6 +100,7 @@ const sebastian = {
           temporada: 2
       },
       {
+        active: "",
           año: 2017,
           premiacion: "IGN Awards",
           categoria: "Best Animated Series",
@@ -105,7 +109,8 @@ const sebastian = {
           referencia: 15,
           temporada: 3
       },
-      {
+      { 
+        active: "",
           año: 2017,
           premiacion: "IGN Awards",
           categoria: "Best Comedic TV Performance",
@@ -115,6 +120,7 @@ const sebastian = {
           temporada: 3
       },
       {
+        active: "",
           año: 2017,
           premiacion: "IGN People's Choice Award",
           categoria: "TV Series of the Year",
@@ -123,7 +129,8 @@ const sebastian = {
           referencia: 13,
           temporada: 3
       },
-      {
+      {     
+        active: "",
           año: 2017,
           premiacion: "IGN People's Choice Award",
           categoria: "Best Animated Series",
@@ -133,6 +140,7 @@ const sebastian = {
           temporada: 3
       },
       {
+        active: "",
           año: 2017,
           premiacion: "IGN People's Choice Award",
           categoria: "Best Comedic TV Performance",
@@ -142,6 +150,7 @@ const sebastian = {
           temporada: 3
       },
       {
+        active: "",
           año: 2018,
           premiacion: "Critics' Choice Television Awards",
           categoria: "Best Animated Series",
@@ -151,6 +160,7 @@ const sebastian = {
           temporada: 3
       },
       {
+        active: "",
           año: 2018,
           premiacion: "Annie Awards",
           categoria: "Best General Audience Animated Television/Broadcast Production",
@@ -160,6 +170,7 @@ const sebastian = {
           temporada: 3
       },
       {
+        active: "",
           año: 2018,
           premiacion: "Annie Awards",
           categoria: "Outstanding Achievement for Writing in an Animated Television/Broadcast Production",
