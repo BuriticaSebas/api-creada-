@@ -16,7 +16,7 @@ const sebastian = {
             ingles: "Justin Roiland",
             espanol: "Eder la Barrera"
         },
-        imagen: "https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg"
+
     },
     temporadas: [
         {
